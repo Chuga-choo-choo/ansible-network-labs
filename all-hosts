@@ -9,6 +9,7 @@ juniper
 lab
 
 [cisco]
+POR ansible_host=10.1.1.1
 
 [cisco:vars]
 ansible_network_os=ios
