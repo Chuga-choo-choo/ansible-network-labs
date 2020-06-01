@@ -3,21 +3,9 @@ ansible_port=22
 
 [routers:children]
 cisco
-juniper
 
 [cisco]
 POR 10.1.1.1
 
 [cisco:vars]
 ansible_network_os=ios
-ansible_connection=network_cli
-
-[juniper]
-
-[juniper:vars]
-ansible_network_os=junos
-
-[arista]
-
-[arista:vars]
-ansible_network_os=eos
