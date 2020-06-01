@@ -5,7 +5,7 @@ ansible_port=22
 cisco
 
 [cisco]
-POR 10.1.1.1
+POR ansible_host=10.1.1.1
 
 [cisco:vars]
 ansible_network_os=ios
