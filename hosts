@@ -1,11 +1,5 @@
-[all:vars]
-ansible_port=22
-
-[routers:children]
-cisco
-
-[cisco]
 POR 10.1.1.1
 
-[cisco:vars]
+[all:vars]
+ansible_port=22
 ansible_network_os=ios
