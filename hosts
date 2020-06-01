@@ -6,7 +6,7 @@ cisco
 juniper
 
 [cisco]
-10.1.1.1
+POR 10.1.1.1
 
 [cisco:vars]
 ansible_network_os=ios
