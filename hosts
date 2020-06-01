@@ -9,7 +9,7 @@ cisco
 juniper
 
 [cisco]
-R105 ansible_host=10.1.105.10
+R105 ansible_host=10.1.1.1
 
 [cisco:vars]
 ansible_network_os=ios
