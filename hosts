@@ -18,10 +18,10 @@ POR
 LAK
 
 [POR]
-POR ansible_host=10.1.1.1
+por-4350-mpls-rtr-01 ansible_host=10.1.1.1
 
 [LAK]
-LAK ansible_host=10.3.1.1
+lak-rtr-01 ansible_host=10.3.1.1
 
 [juniper]
 
